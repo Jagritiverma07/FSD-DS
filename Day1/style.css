@@ -3,7 +3,7 @@ body{
 }
 tr{
     background-color:aliceblue ;
-    color:hsl(315, 100%, 75%)
+    color:black;
 }
 table{
     border-radius:12px;
