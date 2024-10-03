@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+/* #myid1{
+    background-color:aqua;
+    font-size:20px;
+}
+#myid2{
+    background-color:blue;
+    font-size:20px;
+} 
+
+.myclass{
+    color:blueviolet;
+
+
+} */
+ div p{
+    background-color: aqua;
+    /* descendant child */
+ }
+ div>p{
+    background-color: aqua;
+    font-size:30px;
+    /* child selector */
+ }
+ div+p{
+    background-color: blue;
+    font-size:30px;
+ }
+ div~p{
+    background-color: aquamarine;
+ }
